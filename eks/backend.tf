@@ -10,7 +10,7 @@ terraform {
     bucket         = "my-project-bucket-akhil"
     region         = "us-east-1"
     key            = "eks/terraform.tfstate"
-    use_lockfile = "Lock-Files"
+    lock_table     = "Lock-Files"
     encrypt        = true
   }
 }

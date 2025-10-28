@@ -10,8 +10,6 @@ terraform {
     bucket         = "my-project-bucket-akhil"
     region         = "us-east-1"
     key            = "eks/terraform.tfstate"
-    dynamodb_table = "Lock-Files"
-    encrypt        = true
   }
 }
 
